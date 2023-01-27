@@ -1,0 +1,18 @@
+$notchSize: 5px;
+
+.microphoneLevelIndicator {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: ($notchSize * 100);
+  width: fit-content;
+  border: 1px solid black;
+
+  &__notch {
+    background: green;
+    width: $notchSize;
+    height: $notchSize;
+    margin-top: 2px;
+  }
+}
